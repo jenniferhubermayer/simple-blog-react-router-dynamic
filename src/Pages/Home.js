@@ -11,7 +11,7 @@ const Home = () => {
     document.querySelector("header").style.backgroundImage = `url(${imageHome})`;
     document.querySelector("header").style.backgroundRepeat = `no-repeat`;
     document.querySelector("header").style.backgroundSize = `cover`;
-    document.querySelector("header").style.backgroundPosition = `bootom`;
+    document.querySelector("header").style.backgroundPosition = `bottom`;
     document.querySelector("header").style.height = `360px`;
     document.querySelector("header").style.width = `100%`;
     }
