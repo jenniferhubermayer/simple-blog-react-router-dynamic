@@ -8,11 +8,17 @@
 
 .App{
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 a{
-  text-decoration: none;
   color: inherit;
+}
+
+h1, h2, h3, li, .post-details-author{
+  color: #0D4625;
+  font-weight: 900;
 }
 
 button{
@@ -36,4 +42,6 @@ header{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: 32px 96px;
+  height: auto;
 }

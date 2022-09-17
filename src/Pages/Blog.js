@@ -1,10 +1,8 @@
 import "./Blog.css"
-import Article from "../Components/article";
 import blogData from "../Data/blogData";
 import PostDetails from "../Components/PostDetails";
 
 const Blog = () => {
-    console.log(blogData);
     // document.querySelector("header").style.backgroundImage = "";
     return ( 
         <main>
@@ -18,7 +16,6 @@ const Blog = () => {
                     />
                 ))}
             </section>
-            <Article />
         </main>
      );
 }

@@ -1,10 +1,17 @@
 .post-section{
     display: grid;
     grid-template-columns: repeat(3, 30%);
+    gap: 5vw;
+    margin: 12vw;
+}
+
+.post-section h2{
+    font-size: 1rem;
+    margin: 1.5rem 0;
 }
 
 .post-section img{
-    width: 280px;
+    width: 22vw;
     height: 200px;
     object-fit: cover;
     border-radius: 10px;
