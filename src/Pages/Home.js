@@ -3,16 +3,27 @@ import "./Home.css"
 // IMAGES
 import imageHome from "../img/simple-blog.jpg";
 
+// PACKAGES
+import { Link } from "react-router-dom";
+
 const Home = () => {
-    // document.querySelector("header").style.backgroundImage = `url(${imageHome})`;
-    // document.querySelector("header").style.backgroundRepeat = "no-repeat";
-    // document.querySelector("header").style.backgroundSize = "contain";
-    // document.querySelector("header").style.height = "1280px";
+    const addHeaderImage = () => {
+    document.querySelector("header").style.backgroundImage = `url(${imageHome})`;
+    document.querySelector("header").style.backgroundRepeat = `no-repeat`;
+    document.querySelector("header").style.backgroundSize = `cover`;
+    document.querySelector("header").style.backgroundPosition = `bootom`;
+    document.querySelector("header").style.height = `360px`;
+    document.querySelector("header").style.width = `100%`;
+    }
+    addHeaderImage();
     return ( 
         <main>
-            <h2>Welcome to my simple Blog</h2>
+            <section className="home-page">
+                <h2>Welcome to my<br/>simple Blog</h2>
+                <Link to="blog"><button>Go to articles</button></Link>
+            </section>
         </main>
      );
 }
- 
+
 export default Home;

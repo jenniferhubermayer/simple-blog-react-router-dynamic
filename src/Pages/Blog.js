@@ -1,10 +1,22 @@
 import "./Blog.css"
+
+// DATA IMPORT
 import blogData from "../Data/blogData";
+
+// COMPONENTS
 import PostDetails from "../Components/PostDetails";
 
+// ----------------- BLOG PAGE -----------------
 const Blog = () => {
-    // document.querySelector("header").style.backgroundImage = "";
-    return ( 
+    const removeHeaderImage = () => {
+        document.querySelector("header").style.backgroundImage = ``;
+        document.querySelector("header").style.backgroundRepeat = ``;
+        document.querySelector("header").style.backgroundSize = ``;
+        document.querySelector("header").style.backgroundPosition = ``;
+        document.querySelector("header").style.height = ``;
+        }
+        removeHeaderImage();    
+        return ( 
         <main>
             <section className="post-section">
                 {blogData.map((post, index) => (

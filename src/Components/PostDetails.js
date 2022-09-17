@@ -3,6 +3,7 @@ import "./PostDetails.css"
 // PACKAGES
 import { Link } from "react-router-dom";
 
+// ----------------- DETAILS COMPONENT -----------------
 const PostDetails = (props) => {
     return ( 
         <article className="blog-post">

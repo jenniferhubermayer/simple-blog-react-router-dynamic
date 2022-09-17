@@ -3,6 +3,7 @@ import "./logo.css"
 // PACKAGES
 import { Link } from "react-router-dom"; 
 
+// ----------------- LOGO COMPONENT -----------------
 const Logo = () => {
     return ( 
         <div className="logo">

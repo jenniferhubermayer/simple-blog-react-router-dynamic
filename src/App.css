@@ -12,6 +12,10 @@
   font-weight: 400;
 }
 
+p{
+  line-height: 1.25rem;
+}
+
 a{
   color: inherit;
 }
@@ -42,6 +46,6 @@ header{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 32px 96px;
+  padding: 32px 96px;
   height: auto;
 }
