@@ -8,20 +8,12 @@ import { useParams } from "react-router-dom";
 
 // ----------------- DETAILS PAGE -----------------
 const Details = () => {
-    const removeHeaderImage = () => {
-        document.querySelector("header").style.backgroundImage = ``;
-        document.querySelector("header").style.backgroundRepeat = ``;
-        document.querySelector("header").style.backgroundSize = ``;
-        document.querySelector("header").style.backgroundPosition = ``;
-        document.querySelector("header").style.height = ``;
-        }
     const srollToTop = () => {
         window.scrollTo({
             top: 0,
             behavior: 'smooth'
         });
     };
-    removeHeaderImage();
     srollToTop();
     let params = useParams();
     let post = blogData[params.id];

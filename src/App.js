@@ -6,7 +6,7 @@ import Blog from './Pages/Blog';
 import Details from './Pages/Details';
 
 // PACKAGES
-import { BrowserRouter, Routes, Route } from "react-router-dom"; 
+import { Routes, Route } from "react-router-dom"; 
 
 // COMPONENTS
 import Logo from './Components/logo';
@@ -14,7 +14,6 @@ import Nav from './Components/nav';
 
 function App() {
   return (
-    <BrowserRouter>
     <div className="App">
       <header>
         <Logo />
@@ -26,7 +25,6 @@ function App() {
           <Route path='/:id' element={<Details />} />
         </Routes>
     </div>
-    </BrowserRouter>
   );
 }
 

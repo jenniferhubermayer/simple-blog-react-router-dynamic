@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(3, 30%);
     gap: 5vw;
-    margin: 12vw;
+    margin: 160px 12.188vw;
 }
 
 .post-section h2{
