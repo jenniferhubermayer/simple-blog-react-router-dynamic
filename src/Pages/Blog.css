@@ -1,0 +1,11 @@
+.post-section{
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+}
+
+.post-section img{
+    width: 280px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
