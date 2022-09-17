@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const PostDetails = (props) => {
     return ( 
         <article className="blog-post">
-            <img src={props.img} />
+            <img src={props.img} alt="" />
             <h2>{props.title}</h2>
             <Link to={`/${props.id}`}>
                 <button>Read more</button>
