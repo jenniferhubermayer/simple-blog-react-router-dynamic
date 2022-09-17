@@ -6,7 +6,7 @@ import Blog from './Pages/Blog';
 import Details from './Pages/Details';
 
 // PACKAGES
-import { BrowserRouter, Routes, Route, Link, useLocation } from "react-router-dom"; 
+import { BrowserRouter, Routes, Route } from "react-router-dom"; 
 
 // COMPONENTS
 import Logo from './Components/logo';
