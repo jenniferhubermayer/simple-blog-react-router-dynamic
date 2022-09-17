@@ -39,8 +39,8 @@ The task is to create a simple blog website.
 
 ### Links
 
-- Solution URL: [https://github.com/jenniferhubermayer/xxx](https://github.com/jenniferhubermayer/xxx)
-- Live Site URL: [xxx](xxx)
+- Solution URL: [https://github.com/jenniferhubermayer/simple-blog-react-router-dynamic/](https://github.com/jenniferhubermayer/simple-blog-react-router-dynamic/)
+- Live Site URL: [https://dapper-fairy-fde2d1.netlify.app/](https://dapper-fairy-fde2d1.netlify.app/)
 
 ## My process
 
@@ -50,6 +50,7 @@ The task is to create a simple blog website.
 - Semantic HTML5 markup
 - CSS (desktop only)
 - Flexbox
+- Grid
 - JavaScript
 
 ## Author
